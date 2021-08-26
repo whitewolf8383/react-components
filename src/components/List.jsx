@@ -1,10 +1,12 @@
 import React from "react";
+import {add, subtract, multiply, divide} from "./calculator";
 
 function List() {
   return <ul>
-    <li>Bacon</li>
-    <li>Curry</li>
-    <li>Hotdogs</li>
+    <li>{add(1, 2)}</li>
+    <li>{subtract(7, 2)}</li>
+    <li>{multiply(2, 3)}</li>
+    <li>{divide(5, 2)}</li>
   </ul>
 };
 
